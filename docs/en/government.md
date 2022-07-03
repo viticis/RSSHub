@@ -2,7 +2,13 @@
 pageClass: routes
 ---
 
-# Goverment
+# Government
+
+## Australia Department of Home Affairs
+
+### Immigration and Citizenship - News
+
+<RouteEn author="liu233w" example="/gov/immiau/news" path="/gov/immiau/news">
 
 ## Central Intelligence Agency
 
@@ -60,7 +66,7 @@ Language
 
 ### Latest News
 
-<RouteEn author="linbuxiao" example="/ccac/news/all" path="/ccac/news/:type/:lang?" :paramsDesc="['Category', 'Language, default to `sc`. Supprot `en`(English), `sc`(Simplified Chinese), `tc`(Traditional Chinese) and `pt`(Portuguese)']">
+<RouteEn author="linbuxiao" example="/ccac/news/all" path="/ccac/news/:type/:lang?" :paramsDesc="['Category', 'Language, default to `sc`. Supprot `en`(English), `sc`(Simplified Chinese), `tc`(Traditional Chinese) and `pt`(Portuguese)']" puppeteer="1">
 Category
 
 | All  | Detected Cases | Investigation Reports or Recommendations  | Annual Reports | CCAC's Updates |
@@ -106,6 +112,10 @@ Fill in the English expression for the month in the Month field, eg `December` f
 | | blog | legislation | presidential-actions | press-briefings | speeches-remarks | statements-releases |
 
 </RouteEn>
+
+### Office of Science and Technology Policy
+
+<RouteEn author="LyleLee" example="/whitehouse/ostp" path="/whitehouse/ostp"/>
 
 ## U.S. Department of the Treasury
 
